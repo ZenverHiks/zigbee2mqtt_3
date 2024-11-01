@@ -1,3 +1,36 @@
+## 1.41.0-1
+- Updated Zigbee2MQTT to version [`1.41.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.41.0)
+
+## [Unreleased]
+- Mount addon specific configuration into the addon container (`/addon_config`) 
+    
+## 1.40.2-1
+- Updated Zigbee2MQTT to version [`1.40.2`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.40.2)
+
+## 1.40.1-1
+- Updated Zigbee2MQTT to version [`1.40.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.40.1)
+
+## 1.40.0-1
+- Updated Zigbee2MQTT to version [`1.40.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.40.0)
+
+## 1.39.1-1
+- Updated Zigbee2MQTT to version [`1.39.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.39.1)
+
+## 1.39.0-1
+- Updated Zigbee2MQTT to version [`1.39.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.39.0)
+
+## 1.38.0-1
+- Updated Zigbee2MQTT to version [`1.38.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.38.0)
+
+## 1.37.1-1
+- Updated Zigbee2MQTT to version [`1.37.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.37.1)
+
+## 1.37.0-1
+- Updated Zigbee2MQTT to version [`1.37.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.37.0)
+
+## 1.36.1-1
+- Updated Zigbee2MQTT to version [`1.36.1`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.36.1)
+
 ## 1.36.0-1
 - Updated Zigbee2MQTT to version [`1.36.0`](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.36.0)
 
