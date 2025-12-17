@@ -55,7 +55,8 @@ if bashio::config.has_value 'watchdog'; then
 fi
 
 export NODE_PATH=/app/node_modules
-export ZIGBEE2MQTT_CONFIG_FRONTEND='{"enabled":true,"port": 8099}'
+export ZIGBEE2MQTT_CONFIG_FRONTEND_ENABLED='true'
+export ZIGBEE2MQTT_CONFIG_FRONTEND_PORT='8099'
 export ZIGBEE2MQTT_CONFIG_HOMEASSISTANT_ENABLED='true'
 export Z2M_ONBOARD_URL='http://0.0.0.0:8099'
 
@@ -85,6 +86,8 @@ function export_config() {
 
 export_config 'mqtt'
 export_config 'serial'
+
+export TZ="$(bashio::supervisor.timezone)"
 
 if (bashio::config.is_empty 'mqtt' || ! (bashio::config.has_value 'mqtt.server' || bashio::config.has_value 'mqtt.user' || bashio::config.has_value 'mqtt.password')) && bashio::var.has_value "$(bashio::services 'mqtt')"; then
     if bashio::var.true "$(bashio::services 'mqtt' 'ssl')"; then
